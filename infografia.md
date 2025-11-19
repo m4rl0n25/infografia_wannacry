@@ -33,6 +33,10 @@ El ataque fue atribuido por múltiples gobiernos al **Lazarus Group**, un actor 
 ---
 
 ## 🔍 Descripción Técnica de la Vulnerabilidad
+
+<img width="1549" height="791" alt="wannacrye" src="https://github.com/user-attachments/assets/66c2993e-72af-4d74-9a79-60c2f91b33ac" />
+
+
 - **Vulnerabilidad:** `MS17-010 – EternalBlue`  
 - **Componente afectado:** Protocolo **SMBv1** (Server Message Block)  
 - **Impacto técnico:** Ejecución remota de código (RCE)  
