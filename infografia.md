@@ -1,0 +1,2 @@
+# infografia_wannacry
+infografia_wannacry
