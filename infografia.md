@@ -3,6 +3,10 @@
 
 ![WannaCry Banner](https://img.shields.io/badge/WannaCry-Ransomware-critical?style=for-the-badge&color=red)
 
+## Autor: - Sofia Moreno - Yonatan Castellanos - Camilo Cristiano - Marlon Artunduaga -Alejandro Romero
+## Docente: Juan Camilo Botonero Rodriguez
+## Curso: Seg Defen Ofens Red Blue Team — 2025
+
 ---
 
 ## 📖 Tabla de Contenidos
