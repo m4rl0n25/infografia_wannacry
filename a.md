@@ -22,16 +22,19 @@
 ---
 
 ## 🧩 Resumen Ejecutivo
-WannaCry fue un ataque global de ransomware ocurrido el **12 de mayo de 2017** que afectó a más de **300,000 dispositivos en 150 países**.  
-El malware explotaba la vulnerabilidad **MS17-010 (EternalBlue)** y se propagaba mediante el protocolo **SMBv1**, lo que permitió un ataque rápido y masivo.
+WannaCry fue un ataque global de ransomware ocurrido el **12 de mayo de 2017**, afectando a más de **300,000 dispositivos en 150 países**.  
+Explotaba la vulnerabilidad **MS17-010 (EternalBlue)** en sistemas Windows sin actualizar, propagándose rápidamente mediante el protocolo **SMBv1**.  
+El ataque fue atribuido al **Lazarus Group**, asociado a Corea del Norte.
 
 ---
 
 ## 🔍 Descripción Técnica de la Vulnerabilidad
 - **Vulnerabilidad:** `MS17-010 – EternalBlue`  
-- **Componente afectado:** Protocolo **SMBv1**  
-- **Impacto:** ejecución remota de código  
-- **Sistemas vulnerables:** Windows XP/7/Server sin parchear
+- **Componente afectado:** SMBv1  
+- **Impacto:** Ejecución remota de código (RCE)  
+- **Sistemas vulnerables:** Windows XP, 7, Server 2008/2012 sin parches  
+
+WannaCry incluía además un módulo tipo **gusano**, permitiendo su propagación automática entre sistemas vulnerables.
 
 ---
 
@@ -43,6 +46,7 @@ timeline
     2017-03 : Microsoft publica MS17-010
     2017-04 : Shadow Brokers filtra EternalBlue
     2017-05-12 : Estalla el brote global de WannaCry
-    2017-05-13 : Descubrimiento del "kill-switch" por investigadores
-    2017-06 : Aparición de variantes sin kill-switch
+    2017-05-13 : Descubrimiento del "kill-switch"
+    2017-06 : Variantes sin kill-switch empiezan a circular
+
 
